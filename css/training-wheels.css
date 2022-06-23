@@ -40,8 +40,9 @@ p {
 }
 
 .icon {
-    height: 18px;
-    width: 18px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
     background-color: #E6563B;
     border-radius: 50%;
     display: inline-block;
