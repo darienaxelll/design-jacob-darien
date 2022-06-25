@@ -6,17 +6,17 @@ body {
     height: 100vh;
     background: #E6E6E6;
 }
-/* row color */
-div.row {
-    border: 1px dashed blue;
-}
-/* cell color */
-div.row > div {
-    border: 1px solid red;
-}
-div.tall-row {
-    height: 300px;
-}
+/*!* row color *!*/
+/*div.row {*/
+/*    border: 1px dashed blue;*/
+/*}*/
+/*!* cell color *!*/
+/*div.row > div {*/
+/*    border: 1px solid red;*/
+/*}*/
+/*div.tall-row {*/
+/*    height: 300px;*/
+/*}*/
 
 .sub-heading {
     font-family: 'Anton', sans-serif;
@@ -56,6 +56,7 @@ p {
     vertical-align: middle;
     border-radius: 50%; /* may require vendor prefixes */
 }
+
 #badge1 {
     background: #E6563B;
 }
