@@ -55,7 +55,7 @@ p {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    border-radius: 50%; /* may require vendor prefixes */
+    border-radius: 50%;
 }
 
 #badge1 {
@@ -87,7 +87,7 @@ p {
 }
 
 .small-picture {
-    width: 85px;
-    height: 65px;
+    width: 5em;
+    height: 3.5em;
     padding-right: 8px;
 }
