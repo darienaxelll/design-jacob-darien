@@ -6,6 +6,7 @@ body {
     height: 100vh;
     background: #E6E6E6;
 }
+
 /*!* row color *!*/
 /*div.row {*/
 /*    border: 1px dashed blue;*/
@@ -40,8 +41,8 @@ p {
 }
 
 .icon {
-    height: 25px;
-    width: 25px;
+    height: 1.56em;
+    width: 1.56em;
     text-align: center;
     background-color: #E6563B;
     border-radius: 50%;
@@ -83,4 +84,10 @@ p {
 }
 #icon4 {
     background: #00ABA9;
+}
+
+#mobile-phone {
+    width: 65px;
+    height: 65px;
+    padding-right: 8px;
 }
