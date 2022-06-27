@@ -72,22 +72,22 @@ p {
     background: #00ABA9;
 }
 
-#icon1 {
+.icon1 {
     background: #E6563B;
 }
 
-#icon2 {
+.icon2 {
     background: #EB9D3A;
 }
-#icon3 {
+.icon3 {
     background: #7CB06C;
 }
-#icon4 {
+.icon4 {
     background: #00ABA9;
 }
 
-#mobile-phone {
-    width: 65px;
+.small-picture {
+    width: 85px;
     height: 65px;
     padding-right: 8px;
 }
