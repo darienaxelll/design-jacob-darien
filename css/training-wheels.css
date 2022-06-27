@@ -53,9 +53,9 @@ p {
     height: 85px;
     width: 85px;
     display: table-cell;
-    text-align: center;
     vertical-align: middle;
     border-radius: 50%;
+    border: 5px solid white;
 }
 
 #badge1 {
@@ -74,20 +74,38 @@ p {
 
 .icon1 {
     background: #E6563B;
+    border: 1px solid black;
 }
 
 .icon2 {
     background: #EB9D3A;
+    border: 1px solid black;
 }
 .icon3 {
     background: #7CB06C;
+    border: 1px solid black;
 }
 .icon4 {
     background: #00ABA9;
+    border: 1px solid black;
 }
 
 .small-picture {
     width: 5em;
     height: 3.5em;
-    padding-right: 8px;
+    margin-right: 10px;
+    border-radius: 30px;
+    border: 1px solid grey;
 }
+
+.sub-titles {
+    margin-top: 50px;
+    border-top: 1px solid grey;
+}
+
+@media screen and (max-width: 768px) {
+    .sub-titles {
+        display: none;
+    }
+}
+
