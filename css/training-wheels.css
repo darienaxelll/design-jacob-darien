@@ -58,6 +58,10 @@ p {
     border: 5px solid white;
 }
 
+#border {
+    border-top: 1px solid grey;
+}
+
 #badge1 {
     background: #E6563B;
 }
@@ -100,11 +104,10 @@ p {
 
 .sub-titles {
     margin-top: 50px;
-    border-top: 1px solid grey;
 }
 
 @media screen and (max-width: 768px) {
-    .sub-titles {
+    #border {
         display: none;
     }
 }
